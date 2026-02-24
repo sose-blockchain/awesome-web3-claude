@@ -12,61 +12,14 @@ This space is early-stage — entries are selected for functionality and officia
 
 ## Contents
 
-- [MCP Servers — Onchain Data & Analytics](#mcp-servers--onchain-data--analytics)
-- [MCP Servers — Smart Contract & DeFi](#mcp-servers--smart-contract--defi)
-- [AI Agent Frameworks — Onchain](#ai-agent-frameworks--onchain)
 - [Claude Code Skills & Plugins for Web3](#claude-code-skills--plugins-for-web3)
 - [Smart Contract Development Tools](#smart-contract-development-tools)
+- [AI Agent Frameworks — Onchain](#ai-agent-frameworks--onchain)
+- [MCP Servers — Onchain Data & Analytics](#mcp-servers--onchain-data--analytics)
+- [MCP Servers — Smart Contract & DeFi](#mcp-servers--smart-contract--defi)
 - [Learning & Reference](#learning--reference)
 
 ---
-
-## MCP Servers — Onchain Data & Analytics
-
-> MCP servers that let Claude Code query onchain data directly.
-
-| Repository | Stars | Type | Last Updated | Description |
-|:-----------|------:|:----:|:---:|:------------|
-| [mcpdotdirect/evm-mcp-server](https://github.com/mcpdotdirect/evm-mcp-server) | ![](https://img.shields.io/github/stars/mcpdotdirect/evm-mcp-server?style=flat-square&logo=github) | `Community` | '25.11 | General-purpose EVM MCP, interact with Ethereum, Base, Arbitrum, Polygon and more |
-| [aaronjmars/web3-research-mcp](https://github.com/aaronjmars/web3-research-mcp) | ![](https://img.shields.io/github/stars/aaronjmars/web3-research-mcp?style=flat-square&logo=github) | `Community` | '25.10 | Crypto deep research agent, local, free, protocol analysis automation |
-| [alchemyplatform/alchemy-mcp-server](https://github.com/alchemyplatform/alchemy-mcp-server) | ![](https://img.shields.io/github/stars/alchemyplatform/alchemy-mcp-server?style=flat-square&logo=github) | `Official` | '26.01 | Balances, transactions, NFTs, and token data across 60+ networks |
-| [Bankless/onchain-mcp](https://github.com/Bankless/onchain-mcp) | ![](https://img.shields.io/github/stars/Bankless/onchain-mcp?style=flat-square&logo=github) | `Official` | '26.02 | Smart contract interactions, tx queries, and token info via MCP |
-| [solana-foundation/solana-mcp-official](https://github.com/solana-foundation/solana-mcp-official) | ![](https://img.shields.io/github/stars/solana-foundation/solana-mcp-official?style=flat-square&logo=github) | `Official` | '25.08 | Solana Foundation MCP server |
-| [kukapay/cryptopanic-mcp-server](https://github.com/kukapay/cryptopanic-mcp-server) | ![](https://img.shields.io/github/stars/kukapay/cryptopanic-mcp-server?style=flat-square&logo=github) | `Community` | '25.12 | Latest cryptocurrency news for AI agents via CryptoPanic API |
-| [heurist-network/heurist-mesh-mcp-server](https://github.com/heurist-network/heurist-mesh-mcp-server) | ![](https://img.shields.io/github/stars/heurist-network/heurist-mesh-mcp-server?style=flat-square&logo=github) | `Official` | '26.02 | Web3 AI agent mesh, blockchain analysis, security audits, token metrics, DeFi analytics |
-| [getAlby/mcp](https://github.com/getAlby/mcp) | ![](https://img.shields.io/github/stars/getAlby/mcp?style=flat-square&logo=github) | `Official` | '26.02 | Bitcoin Lightning wallet MCP, send and receive payments via Nostr Wallet Connect |
-| [truss44/mcp-crypto-price](https://github.com/truss44/mcp-crypto-price) | ![](https://img.shields.io/github/stars/truss44/mcp-crypto-price?style=flat-square&logo=github) | `Community` | '26.02 | Real-time crypto price analysis via CoinCap API |
-| [coinpaprika/dexpaprika-mcp](https://github.com/coinpaprika/dexpaprika-mcp) | ![](https://img.shields.io/github/stars/coinpaprika/dexpaprika-mcp?style=flat-square&logo=github) | `Official` | '25.10 | DEX data MCP, real-time prices, liquidity pools, OHLCV across 20+ chains |
-| [clumsynonono/ethereum-dune-mcp](https://github.com/clumsynonono/ethereum-dune-mcp) | ![](https://img.shields.io/github/stars/clumsynonono/ethereum-dune-mcp?style=flat-square&logo=github) | `Community` | '25.11 | Ethereum research MCP powered by Dune, EIP-1559, blobs, and MEV analytics |
-| [noditlabs/nodit-mcp-server](https://github.com/noditlabs/nodit-mcp-server) | ![](https://img.shields.io/github/stars/noditlabs/nodit-mcp-server?style=flat-square&logo=github) | `Official` | '26.02 | Nodit Web3 Data API MCP, multi-chain blockchain data access for AI agents |
-| [MoralisWeb3/moralis-mcp-server](https://github.com/MoralisWeb3/moralis-mcp-server) | ![](https://img.shields.io/github/stars/MoralisWeb3/moralis-mcp-server?style=flat-square&logo=github) | `Official` | '25.10 | Moralis Web3 API MCP, query blockchain data across multiple networks including NFTs, tokens, and DeFi |
-| [Nielsen642/Crypto_MCP_Server](https://github.com/Nielsen642/Crypto_MCP_Server) | ![](https://img.shields.io/github/stars/Nielsen642/Crypto_MCP_Server?style=flat-square&logo=github) | `Community` | '25.12 | Real-time and historical crypto market data MCP via CCXT |
-
-## MCP Servers — Smart Contract & DeFi
-
-> Smart contract analysis, decompilation, and DeFi protocol access.
-
-| Repository | Stars | Type | Last Updated | Description |
-|:-----------|------:|:----:|:---:|:------------|
-| [PraneshASP/foundry-mcp-server](https://github.com/PraneshASP/foundry-mcp-server) | ![](https://img.shields.io/github/stars/PraneshASP/foundry-mcp-server?style=flat-square&logo=github) | `Community` | '26.01 | MCP server for Foundry, compile/test/deploy Solidity contracts via AI agents |
-| [nirholas/UCAI](https://github.com/nirholas/UCAI) | ![](https://img.shields.io/github/stars/nirholas/UCAI?style=flat-square&logo=github) | `Community` | '26.02 | Universal Contract AI Interface, ABI-to-MCP server generator for any smart contract |
-| [thirdweb-dev/ai](https://github.com/thirdweb-dev/ai) | ![](https://img.shields.io/github/stars/thirdweb-dev/ai?style=flat-square&logo=github) | `Official` | '25.06 | All-in-one Web3 SDK (wallets, AA, RPC) for AI agents |
-| [ahnlabio/bicscan-mcp](https://github.com/ahnlabio/bicscan-mcp) | ![](https://img.shields.io/github/stars/ahnlabio/bicscan-mcp?style=flat-square&logo=github) | `Official` | '26.02 | EVM address risk scoring and asset analysis |
-
-## AI Agent Frameworks — Onchain
-
-> Frameworks for AI agents that autonomously execute onchain transactions.
-
-| Repository | Stars | Type | Last Updated | Description |
-|:-----------|------:|:----:|:---:|:------------|
-| [elizaOS/eliza](https://github.com/elizaOS/eliza) | ![](https://img.shields.io/github/stars/elizaOS/eliza?style=flat-square&logo=github) | `Community` | '26.02 | Autonomous AI agent, token swaps, NFT minting, onchain txs with plugin system |
-| [sendaifun/solana-agent-kit](https://github.com/sendaifun/solana-agent-kit) | ![](https://img.shields.io/github/stars/sendaifun/solana-agent-kit?style=flat-square&logo=github) | `Community` | '26.01 | Solana AI agent framework, connect any AI agent to Solana protocols |
-| [coinbase/agentkit](https://github.com/coinbase/agentkit) | ![](https://img.shields.io/github/stars/coinbase/agentkit?style=flat-square&logo=github) | `Official` | '26.02 | "Every AI Agent deserves a wallet." ERC-4337 account abstraction |
-| [piotrostr/listen](https://github.com/piotrostr/listen) | ![](https://img.shields.io/github/stars/piotrostr/listen?style=flat-square&logo=github) | `Community` | '25.11 | DeFAI Swiss Army Knife, AI-powered DeFi agent toolkit for Solana and EVM |
-| [goat-sdk/goat](https://github.com/goat-sdk/goat) | ![](https://img.shields.io/github/stars/goat-sdk/goat?style=flat-square&logo=github) | `Community` | '26.01 | Agentic finance toolkit, connect LLM agents to DeFi protocols across chains |
-| [edwin-finance/edwin](https://github.com/edwin-finance/edwin) | ![](https://img.shields.io/github/stars/edwin-finance/edwin?style=flat-square&logo=github) | `Community` | '25.11 | Enable AI agents to understand and execute DeFi protocol operations |
-| [Bink-AI/BinkOS](https://github.com/Bink-AI/BinkOS) | ![](https://img.shields.io/github/stars/Bink-AI/BinkOS?style=flat-square&logo=github) | `Community` | '25.08 | AI-powered DeFi OS on BNB Chain, swaps, bridges, yield optimization |
-| [AmbireTech/aura](https://github.com/AmbireTech/aura) | ![](https://img.shields.io/github/stars/AmbireTech/aura?style=flat-square&logo=github) | `Community` | '25.12 | Onchain activity analyzer and personal AI agent framework for web3 |
 
 ## Claude Code Skills & Plugins for Web3
 
@@ -113,6 +66,53 @@ This space is early-stage — entries are selected for functionality and officia
 | [a16z/halmos](https://github.com/a16z/halmos) | ![](https://img.shields.io/github/stars/a16z/halmos?style=flat-square&logo=github) | `Official` | '25.08 | Symbolic testing for EVM smart contracts, formal verification via CLI |
 | [Cyfrin/aderyn](https://github.com/Cyfrin/aderyn) | ![](https://img.shields.io/github/stars/Cyfrin/aderyn?style=flat-square&logo=github) | `Official` | '26.02 | Rust-based Solidity static analyzer, complementary to Slither |
 | [crytic/medusa](https://github.com/crytic/medusa) | ![](https://img.shields.io/github/stars/crytic/medusa?style=flat-square&logo=github) | `Official` | '26.02 | Parallelized coverage-guided Solidity fuzzer, faster alternative to Echidna |
+
+## AI Agent Frameworks — Onchain
+
+> Frameworks for AI agents that autonomously execute onchain transactions.
+
+| Repository | Stars | Type | Last Updated | Description |
+|:-----------|------:|:----:|:---:|:------------|
+| [elizaOS/eliza](https://github.com/elizaOS/eliza) | ![](https://img.shields.io/github/stars/elizaOS/eliza?style=flat-square&logo=github) | `Community` | '26.02 | Autonomous AI agent, token swaps, NFT minting, onchain txs with plugin system |
+| [sendaifun/solana-agent-kit](https://github.com/sendaifun/solana-agent-kit) | ![](https://img.shields.io/github/stars/sendaifun/solana-agent-kit?style=flat-square&logo=github) | `Community` | '26.01 | Solana AI agent framework, connect any AI agent to Solana protocols |
+| [coinbase/agentkit](https://github.com/coinbase/agentkit) | ![](https://img.shields.io/github/stars/coinbase/agentkit?style=flat-square&logo=github) | `Official` | '26.02 | "Every AI Agent deserves a wallet." ERC-4337 account abstraction |
+| [piotrostr/listen](https://github.com/piotrostr/listen) | ![](https://img.shields.io/github/stars/piotrostr/listen?style=flat-square&logo=github) | `Community` | '25.11 | DeFAI Swiss Army Knife, AI-powered DeFi agent toolkit for Solana and EVM |
+| [goat-sdk/goat](https://github.com/goat-sdk/goat) | ![](https://img.shields.io/github/stars/goat-sdk/goat?style=flat-square&logo=github) | `Community` | '26.01 | Agentic finance toolkit, connect LLM agents to DeFi protocols across chains |
+| [edwin-finance/edwin](https://github.com/edwin-finance/edwin) | ![](https://img.shields.io/github/stars/edwin-finance/edwin?style=flat-square&logo=github) | `Community` | '25.11 | Enable AI agents to understand and execute DeFi protocol operations |
+| [Bink-AI/BinkOS](https://github.com/Bink-AI/BinkOS) | ![](https://img.shields.io/github/stars/Bink-AI/BinkOS?style=flat-square&logo=github) | `Community` | '25.08 | AI-powered DeFi OS on BNB Chain, swaps, bridges, yield optimization |
+| [AmbireTech/aura](https://github.com/AmbireTech/aura) | ![](https://img.shields.io/github/stars/AmbireTech/aura?style=flat-square&logo=github) | `Community` | '25.12 | Onchain activity analyzer and personal AI agent framework for web3 |
+
+## MCP Servers — Onchain Data & Analytics
+
+> MCP servers that let Claude Code query onchain data directly.
+
+| Repository | Stars | Type | Last Updated | Description |
+|:-----------|------:|:----:|:---:|:------------|
+| [mcpdotdirect/evm-mcp-server](https://github.com/mcpdotdirect/evm-mcp-server) | ![](https://img.shields.io/github/stars/mcpdotdirect/evm-mcp-server?style=flat-square&logo=github) | `Community` | '25.11 | General-purpose EVM MCP, interact with Ethereum, Base, Arbitrum, Polygon and more |
+| [aaronjmars/web3-research-mcp](https://github.com/aaronjmars/web3-research-mcp) | ![](https://img.shields.io/github/stars/aaronjmars/web3-research-mcp?style=flat-square&logo=github) | `Community` | '25.10 | Crypto deep research agent, local, free, protocol analysis automation |
+| [alchemyplatform/alchemy-mcp-server](https://github.com/alchemyplatform/alchemy-mcp-server) | ![](https://img.shields.io/github/stars/alchemyplatform/alchemy-mcp-server?style=flat-square&logo=github) | `Official` | '26.01 | Balances, transactions, NFTs, and token data across 60+ networks |
+| [Bankless/onchain-mcp](https://github.com/Bankless/onchain-mcp) | ![](https://img.shields.io/github/stars/Bankless/onchain-mcp?style=flat-square&logo=github) | `Official` | '26.02 | Smart contract interactions, tx queries, and token info via MCP |
+| [solana-foundation/solana-mcp-official](https://github.com/solana-foundation/solana-mcp-official) | ![](https://img.shields.io/github/stars/solana-foundation/solana-mcp-official?style=flat-square&logo=github) | `Official` | '25.08 | Solana Foundation MCP server |
+| [kukapay/cryptopanic-mcp-server](https://github.com/kukapay/cryptopanic-mcp-server) | ![](https://img.shields.io/github/stars/kukapay/cryptopanic-mcp-server?style=flat-square&logo=github) | `Community` | '25.12 | Latest cryptocurrency news for AI agents via CryptoPanic API |
+| [heurist-network/heurist-mesh-mcp-server](https://github.com/heurist-network/heurist-mesh-mcp-server) | ![](https://img.shields.io/github/stars/heurist-network/heurist-mesh-mcp-server?style=flat-square&logo=github) | `Official` | '26.02 | Web3 AI agent mesh, blockchain analysis, security audits, token metrics, DeFi analytics |
+| [getAlby/mcp](https://github.com/getAlby/mcp) | ![](https://img.shields.io/github/stars/getAlby/mcp?style=flat-square&logo=github) | `Official` | '26.02 | Bitcoin Lightning wallet MCP, send and receive payments via Nostr Wallet Connect |
+| [truss44/mcp-crypto-price](https://github.com/truss44/mcp-crypto-price) | ![](https://img.shields.io/github/stars/truss44/mcp-crypto-price?style=flat-square&logo=github) | `Community` | '26.02 | Real-time crypto price analysis via CoinCap API |
+| [coinpaprika/dexpaprika-mcp](https://github.com/coinpaprika/dexpaprika-mcp) | ![](https://img.shields.io/github/stars/coinpaprika/dexpaprika-mcp?style=flat-square&logo=github) | `Official` | '25.10 | DEX data MCP, real-time prices, liquidity pools, OHLCV across 20+ chains |
+| [clumsynonono/ethereum-dune-mcp](https://github.com/clumsynonono/ethereum-dune-mcp) | ![](https://img.shields.io/github/stars/clumsynonono/ethereum-dune-mcp?style=flat-square&logo=github) | `Community` | '25.11 | Ethereum research MCP powered by Dune, EIP-1559, blobs, and MEV analytics |
+| [noditlabs/nodit-mcp-server](https://github.com/noditlabs/nodit-mcp-server) | ![](https://img.shields.io/github/stars/noditlabs/nodit-mcp-server?style=flat-square&logo=github) | `Official` | '26.02 | Nodit Web3 Data API MCP, multi-chain blockchain data access for AI agents |
+| [MoralisWeb3/moralis-mcp-server](https://github.com/MoralisWeb3/moralis-mcp-server) | ![](https://img.shields.io/github/stars/MoralisWeb3/moralis-mcp-server?style=flat-square&logo=github) | `Official` | '25.10 | Moralis Web3 API MCP, query blockchain data across multiple networks including NFTs, tokens, and DeFi |
+| [Nielsen642/Crypto_MCP_Server](https://github.com/Nielsen642/Crypto_MCP_Server) | ![](https://img.shields.io/github/stars/Nielsen642/Crypto_MCP_Server?style=flat-square&logo=github) | `Community` | '25.12 | Real-time and historical crypto market data MCP via CCXT |
+
+## MCP Servers — Smart Contract & DeFi
+
+> Smart contract analysis, decompilation, and DeFi protocol access.
+
+| Repository | Stars | Type | Last Updated | Description |
+|:-----------|------:|:----:|:---:|:------------|
+| [PraneshASP/foundry-mcp-server](https://github.com/PraneshASP/foundry-mcp-server) | ![](https://img.shields.io/github/stars/PraneshASP/foundry-mcp-server?style=flat-square&logo=github) | `Community` | '26.01 | MCP server for Foundry, compile/test/deploy Solidity contracts via AI agents |
+| [nirholas/UCAI](https://github.com/nirholas/UCAI) | ![](https://img.shields.io/github/stars/nirholas/UCAI?style=flat-square&logo=github) | `Community` | '26.02 | Universal Contract AI Interface, ABI-to-MCP server generator for any smart contract |
+| [thirdweb-dev/ai](https://github.com/thirdweb-dev/ai) | ![](https://img.shields.io/github/stars/thirdweb-dev/ai?style=flat-square&logo=github) | `Official` | '25.06 | All-in-one Web3 SDK (wallets, AA, RPC) for AI agents |
+| [ahnlabio/bicscan-mcp](https://github.com/ahnlabio/bicscan-mcp) | ![](https://img.shields.io/github/stars/ahnlabio/bicscan-mcp?style=flat-square&logo=github) | `Official` | '26.02 | EVM address risk scoring and asset analysis |
 
 ## Learning & Reference
 

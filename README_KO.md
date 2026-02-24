@@ -12,61 +12,14 @@
 
 ## 목차
 
-- [MCP 서버 — 온체인 데이터 & 분석](#mcp-서버--온체인-데이터--분석)
-- [MCP 서버 — 스마트 컨트랙트 & DeFi](#mcp-서버--스마트-컨트랙트--defi)
-- [AI 에이전트 프레임워크 — 온체인](#ai-에이전트-프레임워크--온체인)
 - [Claude Code Web3 스킬 & 플러그인](#claude-code-web3-스킬--플러그인)
 - [스마트 컨트랙트 개발 도구](#스마트-컨트랙트-개발-도구)
+- [AI 에이전트 프레임워크 — 온체인](#ai-에이전트-프레임워크--온체인)
+- [MCP 서버 — 온체인 데이터 & 분석](#mcp-서버--온체인-데이터--분석)
+- [MCP 서버 — 스마트 컨트랙트 & DeFi](#mcp-서버--스마트-컨트랙트--defi)
 - [학습 & 레퍼런스](#학습--레퍼런스)
 
 ---
-
-## MCP 서버 — 온체인 데이터 & 분석
-
-> Claude Code에서 온체인 데이터를 직접 조회할 수 있게 해주는 MCP 서버.
-
-| 레포지토리 | 스타 | 유형 | 마지막 업데이트 | 설명 |
-|:-----------|------:|:----:|:---:|:------------|
-| [mcpdotdirect/evm-mcp-server](https://github.com/mcpdotdirect/evm-mcp-server) | ![](https://img.shields.io/github/stars/mcpdotdirect/evm-mcp-server?style=flat-square&logo=github) | `커뮤니티` | '25.11 | 범용 EVM MCP, Ethereum, Base, Arbitrum, Polygon 등과 상호작용 |
-| [aaronjmars/web3-research-mcp](https://github.com/aaronjmars/web3-research-mcp) | ![](https://img.shields.io/github/stars/aaronjmars/web3-research-mcp?style=flat-square&logo=github) | `커뮤니티` | '25.10 | 크립토 딥 리서치 에이전트, 로컬, 무료, 프로토콜 분석 자동화 |
-| [alchemyplatform/alchemy-mcp-server](https://github.com/alchemyplatform/alchemy-mcp-server) | ![](https://img.shields.io/github/stars/alchemyplatform/alchemy-mcp-server?style=flat-square&logo=github) | `공식` | '26.01 | 60개 이상 네트워크에서 잔액, 트랜잭션, NFT, 토큰 데이터 |
-| [Bankless/onchain-mcp](https://github.com/Bankless/onchain-mcp) | ![](https://img.shields.io/github/stars/Bankless/onchain-mcp?style=flat-square&logo=github) | `공식` | '26.02 | MCP를 통한 스마트 컨트랙트 상호작용, tx 조회, 토큰 정보 |
-| [solana-foundation/solana-mcp-official](https://github.com/solana-foundation/solana-mcp-official) | ![](https://img.shields.io/github/stars/solana-foundation/solana-mcp-official?style=flat-square&logo=github) | `공식` | '25.08 | 솔라나 재단 공식 MCP 서버 |
-| [kukapay/cryptopanic-mcp-server](https://github.com/kukapay/cryptopanic-mcp-server) | ![](https://img.shields.io/github/stars/kukapay/cryptopanic-mcp-server?style=flat-square&logo=github) | `커뮤니티` | '25.12 | CryptoPanic API를 통한 AI 에이전트용 최신 암호화폐 뉴스 |
-| [heurist-network/heurist-mesh-mcp-server](https://github.com/heurist-network/heurist-mesh-mcp-server) | ![](https://img.shields.io/github/stars/heurist-network/heurist-mesh-mcp-server?style=flat-square&logo=github) | `공식` | '26.02 | Web3 AI 에이전트 메시, 블록체인 분석, 보안 감사, 토큰 메트릭, DeFi 분석 |
-| [getAlby/mcp](https://github.com/getAlby/mcp) | ![](https://img.shields.io/github/stars/getAlby/mcp?style=flat-square&logo=github) | `공식` | '26.02 | 비트코인 라이트닝 지갑 MCP, Nostr Wallet Connect로 결제 송수신 |
-| [truss44/mcp-crypto-price](https://github.com/truss44/mcp-crypto-price) | ![](https://img.shields.io/github/stars/truss44/mcp-crypto-price?style=flat-square&logo=github) | `커뮤니티` | '26.02 | CoinCap API를 통한 실시간 암호화폐 가격 분석 |
-| [coinpaprika/dexpaprika-mcp](https://github.com/coinpaprika/dexpaprika-mcp) | ![](https://img.shields.io/github/stars/coinpaprika/dexpaprika-mcp?style=flat-square&logo=github) | `공식` | '25.10 | DEX 데이터 MCP, 20개 이상 체인에서 실시간 가격, 유동성 풀, OHLCV |
-| [clumsynonono/ethereum-dune-mcp](https://github.com/clumsynonono/ethereum-dune-mcp) | ![](https://img.shields.io/github/stars/clumsynonono/ethereum-dune-mcp?style=flat-square&logo=github) | `커뮤니티` | '25.11 | Dune 기반 이더리움 리서치 MCP, EIP-1559, 블롭, MEV 분석 |
-| [noditlabs/nodit-mcp-server](https://github.com/noditlabs/nodit-mcp-server) | ![](https://img.shields.io/github/stars/noditlabs/nodit-mcp-server?style=flat-square&logo=github) | `공식` | '26.02 | Nodit Web3 Data API MCP, AI 에이전트를 위한 멀티체인 블록체인 데이터 접근 |
-| [MoralisWeb3/moralis-mcp-server](https://github.com/MoralisWeb3/moralis-mcp-server) | ![](https://img.shields.io/github/stars/MoralisWeb3/moralis-mcp-server?style=flat-square&logo=github) | `공식` | '25.10 | Moralis Web3 API MCP, NFT, 토큰, DeFi 등 멀티 네트워크 블록체인 데이터 조회 |
-| [Nielsen642/Crypto_MCP_Server](https://github.com/Nielsen642/Crypto_MCP_Server) | ![](https://img.shields.io/github/stars/Nielsen642/Crypto_MCP_Server?style=flat-square&logo=github) | `커뮤니티` | '25.12 | CCXT 기반 실시간 및 과거 암호화폐 시장 데이터 MCP |
-
-## MCP 서버 — 스마트 컨트랙트 & DeFi
-
-> 스마트 컨트랙트 분석, 디컴파일, DeFi 프로토콜 접근.
-
-| 레포지토리 | 스타 | 유형 | 마지막 업데이트 | 설명 |
-|:-----------|------:|:----:|:---:|:------------|
-| [PraneshASP/foundry-mcp-server](https://github.com/PraneshASP/foundry-mcp-server) | ![](https://img.shields.io/github/stars/PraneshASP/foundry-mcp-server?style=flat-square&logo=github) | `커뮤니티` | '26.01 | Foundry용 MCP 서버, AI 에이전트를 통한 Solidity 컨트랙트 컴파일/테스트/배포 |
-| [nirholas/UCAI](https://github.com/nirholas/UCAI) | ![](https://img.shields.io/github/stars/nirholas/UCAI?style=flat-square&logo=github) | `커뮤니티` | '26.02 | 범용 컨트랙트 AI 인터페이스, 모든 스마트 컨트랙트용 ABI-to-MCP 서버 생성기 |
-| [thirdweb-dev/ai](https://github.com/thirdweb-dev/ai) | ![](https://img.shields.io/github/stars/thirdweb-dev/ai?style=flat-square&logo=github) | `공식` | '25.06 | AI 에이전트용 올인원 Web3 SDK (지갑, AA, RPC) |
-| [ahnlabio/bicscan-mcp](https://github.com/ahnlabio/bicscan-mcp) | ![](https://img.shields.io/github/stars/ahnlabio/bicscan-mcp?style=flat-square&logo=github) | `공식` | '26.02 | EVM 주소 위험 점수 산정 및 자산 분석 |
-
-## AI 에이전트 프레임워크 — 온체인
-
-> 온체인 트랜잭션을 자율적으로 실행하는 AI 에이전트 프레임워크.
-
-| 레포지토리 | 스타 | 유형 | 마지막 업데이트 | 설명 |
-|:-----------|------:|:----:|:---:|:------------|
-| [elizaOS/eliza](https://github.com/elizaOS/eliza) | ![](https://img.shields.io/github/stars/elizaOS/eliza?style=flat-square&logo=github) | `커뮤니티` | '26.02 | 자율 AI 에이전트, 토큰 스왑, NFT 민팅, 온체인 tx (플러그인 시스템) |
-| [sendaifun/solana-agent-kit](https://github.com/sendaifun/solana-agent-kit) | ![](https://img.shields.io/github/stars/sendaifun/solana-agent-kit?style=flat-square&logo=github) | `커뮤니티` | '26.01 | 솔라나 AI 에이전트 프레임워크, 모든 AI 에이전트를 솔라나 프로토콜에 연결 |
-| [coinbase/agentkit](https://github.com/coinbase/agentkit) | ![](https://img.shields.io/github/stars/coinbase/agentkit?style=flat-square&logo=github) | `공식` | '26.02 | "모든 AI 에이전트에게는 지갑이 필요합니다." ERC-4337 계정 추상화 |
-| [piotrostr/listen](https://github.com/piotrostr/listen) | ![](https://img.shields.io/github/stars/piotrostr/listen?style=flat-square&logo=github) | `커뮤니티` | '25.11 | DeFAI 스위스 아미 나이프, Solana 및 EVM용 AI 기반 DeFi 에이전트 툴킷 |
-| [goat-sdk/goat](https://github.com/goat-sdk/goat) | ![](https://img.shields.io/github/stars/goat-sdk/goat?style=flat-square&logo=github) | `커뮤니티` | '26.01 | 에이전틱 금융 툴킷, LLM 에이전트를 DeFi 프로토콜에 크로스체인 연결 |
-| [edwin-finance/edwin](https://github.com/edwin-finance/edwin) | ![](https://img.shields.io/github/stars/edwin-finance/edwin?style=flat-square&logo=github) | `커뮤니티` | '25.11 | AI 에이전트가 DeFi 프로토콜 작업을 이해하고 실행할 수 있도록 지원 |
-| [Bink-AI/BinkOS](https://github.com/Bink-AI/BinkOS) | ![](https://img.shields.io/github/stars/Bink-AI/BinkOS?style=flat-square&logo=github) | `커뮤니티` | '25.08 | BNB 체인 기반 AI DeFi OS, 스왑, 브릿지, 수익 최적화 |
-| [AmbireTech/aura](https://github.com/AmbireTech/aura) | ![](https://img.shields.io/github/stars/AmbireTech/aura?style=flat-square&logo=github) | `커뮤니티` | '25.12 | 온체인 활동 분석기 및 Web3 개인 AI 에이전트 프레임워크 |
 
 ## Claude Code Web3 스킬 & 플러그인
 
@@ -113,6 +66,53 @@
 | [a16z/halmos](https://github.com/a16z/halmos) | ![](https://img.shields.io/github/stars/a16z/halmos?style=flat-square&logo=github) | `공식` | '25.08 | EVM 스마트 컨트랙트 심볼릭 테스팅, CLI 기반 정형 검증 |
 | [Cyfrin/aderyn](https://github.com/Cyfrin/aderyn) | ![](https://img.shields.io/github/stars/Cyfrin/aderyn?style=flat-square&logo=github) | `공식` | '26.02 | Rust 기반 Solidity 정적 분석기, Slither 보완용 |
 | [crytic/medusa](https://github.com/crytic/medusa) | ![](https://img.shields.io/github/stars/crytic/medusa?style=flat-square&logo=github) | `공식` | '26.02 | 병렬 커버리지 기반 Solidity 퍼저, Echidna보다 빠른 대안 |
+
+## AI 에이전트 프레임워크 — 온체인
+
+> 온체인 트랜잭션을 자율적으로 실행하는 AI 에이전트 프레임워크.
+
+| 레포지토리 | 스타 | 유형 | 마지막 업데이트 | 설명 |
+|:-----------|------:|:----:|:---:|:------------|
+| [elizaOS/eliza](https://github.com/elizaOS/eliza) | ![](https://img.shields.io/github/stars/elizaOS/eliza?style=flat-square&logo=github) | `커뮤니티` | '26.02 | 자율 AI 에이전트, 토큰 스왑, NFT 민팅, 온체인 tx (플러그인 시스템) |
+| [sendaifun/solana-agent-kit](https://github.com/sendaifun/solana-agent-kit) | ![](https://img.shields.io/github/stars/sendaifun/solana-agent-kit?style=flat-square&logo=github) | `커뮤니티` | '26.01 | 솔라나 AI 에이전트 프레임워크, 모든 AI 에이전트를 솔라나 프로토콜에 연결 |
+| [coinbase/agentkit](https://github.com/coinbase/agentkit) | ![](https://img.shields.io/github/stars/coinbase/agentkit?style=flat-square&logo=github) | `공식` | '26.02 | "모든 AI 에이전트에게는 지갑이 필요합니다." ERC-4337 계정 추상화 |
+| [piotrostr/listen](https://github.com/piotrostr/listen) | ![](https://img.shields.io/github/stars/piotrostr/listen?style=flat-square&logo=github) | `커뮤니티` | '25.11 | DeFAI 스위스 아미 나이프, Solana 및 EVM용 AI 기반 DeFi 에이전트 툴킷 |
+| [goat-sdk/goat](https://github.com/goat-sdk/goat) | ![](https://img.shields.io/github/stars/goat-sdk/goat?style=flat-square&logo=github) | `커뮤니티` | '26.01 | 에이전틱 금융 툴킷, LLM 에이전트를 DeFi 프로토콜에 크로스체인 연결 |
+| [edwin-finance/edwin](https://github.com/edwin-finance/edwin) | ![](https://img.shields.io/github/stars/edwin-finance/edwin?style=flat-square&logo=github) | `커뮤니티` | '25.11 | AI 에이전트가 DeFi 프로토콜 작업을 이해하고 실행할 수 있도록 지원 |
+| [Bink-AI/BinkOS](https://github.com/Bink-AI/BinkOS) | ![](https://img.shields.io/github/stars/Bink-AI/BinkOS?style=flat-square&logo=github) | `커뮤니티` | '25.08 | BNB 체인 기반 AI DeFi OS, 스왑, 브릿지, 수익 최적화 |
+| [AmbireTech/aura](https://github.com/AmbireTech/aura) | ![](https://img.shields.io/github/stars/AmbireTech/aura?style=flat-square&logo=github) | `커뮤니티` | '25.12 | 온체인 활동 분석기 및 Web3 개인 AI 에이전트 프레임워크 |
+
+## MCP 서버 — 온체인 데이터 & 분석
+
+> Claude Code에서 온체인 데이터를 직접 조회할 수 있게 해주는 MCP 서버.
+
+| 레포지토리 | 스타 | 유형 | 마지막 업데이트 | 설명 |
+|:-----------|------:|:----:|:---:|:------------|
+| [mcpdotdirect/evm-mcp-server](https://github.com/mcpdotdirect/evm-mcp-server) | ![](https://img.shields.io/github/stars/mcpdotdirect/evm-mcp-server?style=flat-square&logo=github) | `커뮤니티` | '25.11 | 범용 EVM MCP, Ethereum, Base, Arbitrum, Polygon 등과 상호작용 |
+| [aaronjmars/web3-research-mcp](https://github.com/aaronjmars/web3-research-mcp) | ![](https://img.shields.io/github/stars/aaronjmars/web3-research-mcp?style=flat-square&logo=github) | `커뮤니티` | '25.10 | 크립토 딥 리서치 에이전트, 로컬, 무료, 프로토콜 분석 자동화 |
+| [alchemyplatform/alchemy-mcp-server](https://github.com/alchemyplatform/alchemy-mcp-server) | ![](https://img.shields.io/github/stars/alchemyplatform/alchemy-mcp-server?style=flat-square&logo=github) | `공식` | '26.01 | 60개 이상 네트워크에서 잔액, 트랜잭션, NFT, 토큰 데이터 |
+| [Bankless/onchain-mcp](https://github.com/Bankless/onchain-mcp) | ![](https://img.shields.io/github/stars/Bankless/onchain-mcp?style=flat-square&logo=github) | `공식` | '26.02 | MCP를 통한 스마트 컨트랙트 상호작용, tx 조회, 토큰 정보 |
+| [solana-foundation/solana-mcp-official](https://github.com/solana-foundation/solana-mcp-official) | ![](https://img.shields.io/github/stars/solana-foundation/solana-mcp-official?style=flat-square&logo=github) | `공식` | '25.08 | 솔라나 재단 공식 MCP 서버 |
+| [kukapay/cryptopanic-mcp-server](https://github.com/kukapay/cryptopanic-mcp-server) | ![](https://img.shields.io/github/stars/kukapay/cryptopanic-mcp-server?style=flat-square&logo=github) | `커뮤니티` | '25.12 | CryptoPanic API를 통한 AI 에이전트용 최신 암호화폐 뉴스 |
+| [heurist-network/heurist-mesh-mcp-server](https://github.com/heurist-network/heurist-mesh-mcp-server) | ![](https://img.shields.io/github/stars/heurist-network/heurist-mesh-mcp-server?style=flat-square&logo=github) | `공식` | '26.02 | Web3 AI 에이전트 메시, 블록체인 분석, 보안 감사, 토큰 메트릭, DeFi 분석 |
+| [getAlby/mcp](https://github.com/getAlby/mcp) | ![](https://img.shields.io/github/stars/getAlby/mcp?style=flat-square&logo=github) | `공식` | '26.02 | 비트코인 라이트닝 지갑 MCP, Nostr Wallet Connect로 결제 송수신 |
+| [truss44/mcp-crypto-price](https://github.com/truss44/mcp-crypto-price) | ![](https://img.shields.io/github/stars/truss44/mcp-crypto-price?style=flat-square&logo=github) | `커뮤니티` | '26.02 | CoinCap API를 통한 실시간 암호화폐 가격 분석 |
+| [coinpaprika/dexpaprika-mcp](https://github.com/coinpaprika/dexpaprika-mcp) | ![](https://img.shields.io/github/stars/coinpaprika/dexpaprika-mcp?style=flat-square&logo=github) | `공식` | '25.10 | DEX 데이터 MCP, 20개 이상 체인에서 실시간 가격, 유동성 풀, OHLCV |
+| [clumsynonono/ethereum-dune-mcp](https://github.com/clumsynonono/ethereum-dune-mcp) | ![](https://img.shields.io/github/stars/clumsynonono/ethereum-dune-mcp?style=flat-square&logo=github) | `커뮤니티` | '25.11 | Dune 기반 이더리움 리서치 MCP, EIP-1559, 블롭, MEV 분석 |
+| [noditlabs/nodit-mcp-server](https://github.com/noditlabs/nodit-mcp-server) | ![](https://img.shields.io/github/stars/noditlabs/nodit-mcp-server?style=flat-square&logo=github) | `공식` | '26.02 | Nodit Web3 Data API MCP, AI 에이전트를 위한 멀티체인 블록체인 데이터 접근 |
+| [MoralisWeb3/moralis-mcp-server](https://github.com/MoralisWeb3/moralis-mcp-server) | ![](https://img.shields.io/github/stars/MoralisWeb3/moralis-mcp-server?style=flat-square&logo=github) | `공식` | '25.10 | Moralis Web3 API MCP, NFT, 토큰, DeFi 등 멀티 네트워크 블록체인 데이터 조회 |
+| [Nielsen642/Crypto_MCP_Server](https://github.com/Nielsen642/Crypto_MCP_Server) | ![](https://img.shields.io/github/stars/Nielsen642/Crypto_MCP_Server?style=flat-square&logo=github) | `커뮤니티` | '25.12 | CCXT 기반 실시간 및 과거 암호화폐 시장 데이터 MCP |
+
+## MCP 서버 — 스마트 컨트랙트 & DeFi
+
+> 스마트 컨트랙트 분석, 디컴파일, DeFi 프로토콜 접근.
+
+| 레포지토리 | 스타 | 유형 | 마지막 업데이트 | 설명 |
+|:-----------|------:|:----:|:---:|:------------|
+| [PraneshASP/foundry-mcp-server](https://github.com/PraneshASP/foundry-mcp-server) | ![](https://img.shields.io/github/stars/PraneshASP/foundry-mcp-server?style=flat-square&logo=github) | `커뮤니티` | '26.01 | Foundry용 MCP 서버, AI 에이전트를 통한 Solidity 컨트랙트 컴파일/테스트/배포 |
+| [nirholas/UCAI](https://github.com/nirholas/UCAI) | ![](https://img.shields.io/github/stars/nirholas/UCAI?style=flat-square&logo=github) | `커뮤니티` | '26.02 | 범용 컨트랙트 AI 인터페이스, 모든 스마트 컨트랙트용 ABI-to-MCP 서버 생성기 |
+| [thirdweb-dev/ai](https://github.com/thirdweb-dev/ai) | ![](https://img.shields.io/github/stars/thirdweb-dev/ai?style=flat-square&logo=github) | `공식` | '25.06 | AI 에이전트용 올인원 Web3 SDK (지갑, AA, RPC) |
+| [ahnlabio/bicscan-mcp](https://github.com/ahnlabio/bicscan-mcp) | ![](https://img.shields.io/github/stars/ahnlabio/bicscan-mcp?style=flat-square&logo=github) | `공식` | '26.02 | EVM 주소 위험 점수 산정 및 자산 분석 |
 
 ## 학습 & 레퍼런스
 
